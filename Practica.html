@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+    <title>Web Check In</title>
+  </head>
+  <body>
+    <h1>Web Check In</h1>
+
+    <fieldset class="flex_info">
+      <legend class="flex_info__cont">Informacion Importante para su viaje</legend>
+      <details>
+          <summary> Servicios Incluidos</summary>
+            <p>La tarifa incluye desayuno buffet, Internet WiFi, acceso al gimnasio y piscina, sala de juegos y senderos por la selva.</p>
+            <p><i>*Los servicios y facilidades mencionados
+             quedaran sujetos a las normas de seguridad e higiene establecidos
+             en relación al COVID-19.</i></p>
+            <h4>Horarios</h4>
+            <ul>
+              <li>Horario de Check IN 2 pm</li>
+              <li>Horario de Check OUT 11 am</li>
+            </ul>
+      </details>
+      <details>
+              <summary>Reserva Su Transfer</summary>
+                    <h4>(Transfer IN – Cortesía del hotel)</h4>
+                    <p> Su reserva en LOI SUITES IGUAZÚ HOTEL incluye el <i>servicio de transfer</i>
+                      IN desde el Aeropuerto de Puerto Iguazú hasta el hotel, a modo de cortesía.
+                      <b> El servicio es intransferible y no es intercambiable por otros servicios.</b>
+                      Para acceder a este beneficio por favor solicite su traslado con 48hs
+                      de antelación enviando un correo a <b><a href="mailto:iguazu@loisuites.com.ar">iguazu@loisuites.com.ar
+                      </a></b>indicando:</p>
+                      <ul>
+                        <li>Número de vuelo</li>
+                        <li>Número de reserva</li>
+                        <li>Horario de llegada</li>
+                        <li>Celular de contacto</li>
+                      </ul>
+            </details>
+          <details>
+            <summary>Formas de pago </summary>
+              <p>El pago de alojamiento puede realizarse en efectivo (dólares americanos o pesos argentinos) en el hotel, transferencia bancaria, tarjeta de crédito ó a través de Mercado Pago.
+              El cobro de alojamiento se realizará en pesos argentinos al tipo de cambio vendedor Banco Nación.
+               Nuestras tarifas no se ven afectadas por el impuesto del 30% por cambio de moneda extranjera</p>
+          </details>
+          <details>
+            <summary>Política de Cancelaciones y No Show</summary>
+             <P>Las reservas deberán ser canceladas 72 horas antes de la fecha de ingreso, fuera de este plazo se cobrará una noche como penalidad.-</P>
+          </details>
+          <details>
+            <summary>Exención de IVA (21%)</summary>
+              <p>Los residentes no argentinos estarán exentos del IVA (21%) en caso de cumplir las
+                siguientes condiciones:</p>
+                <ul>
+                  <li>Una estadía menor a 90 días.</li>
+                  <li>Una copia del pasaporte con sello de inmigración.</li>
+                  <li>Pago con tarjeta de crédito de institución bancaria extranjera o
+                    transferencia bancaria desde institución bancaria extranjera.</li>
+                </ul>
+          </details>
+          <details>
+              <summary>Tasa eco-turística de Puerto Iguazú.</summary>
+              <p>Este es un impuesto municipal vigente en Puerto Iguazú que se cobrará en
+              el hotel al momento del check-in. El costo es de $90,00 (pesos argentinos)
+              por persona por noche, con un máximo de 2 pernoctes.</p>
+              <p>En estadías mayores, quedan exentas las noches posteriores.
+              Menores de hasta 12 años, jubilados y pensionados están exentos de pago.
+              Los pagos deberán ser en efectivo, en moneda local.
+              No se emitirán facturas ni recibos por sistema. El voucher expedido por la
+              municipalidad de Puerto Iguazú es el comprobante de pago</p>
+          </details>
+          <details>
+              <summary>Early Check IN</summary>
+              <p>En caso que se requiera acceso a las habitaciones antes del horario de check in,
+              dicha solicitud quedará registrarla en la reserva, sujeta a disponibilidad.
+              Si desea garantizar al acceso antes del horario de check in sugerimos reservar
+              la noche previa.</p>
+          </details>
+          <details>
+            <summary>Late Check OUT</summary>
+              <p>En caso que requiera retirarse luego del horario de salida,
+              podemos confirmarlo hasta las 18hs abonando el 50% de la tarifa adicional.
+              Luego de las 18hs deberá abonar la tarifa completa.</p>
+          </details>
+    </fieldset>
+
+      <div class="flex_container">
+        <form class="form" action="Practica.html" target="_blank" method="post">
+          <fieldset class="form__section">
+            <legend>Datos Personales</legend>
+                <div class="form__section">
+                  <input type="text" placeholder="Ingresar Nombre"class="form__input">
+                </div>
+                <div class="form__section">
+                  <input type="text" placeholder="Ingresar Apellido"class="form__input">
+                </div>
+                <div class="form__section">
+                  <input type="email" placeholder="Ingresar email"class="form__input">
+                </div>
+                <div class="form__section">
+                  <input type="text" placeholder="Ingresar Direccion"class="form__input">
+                </div>
+                <div class="form__section">
+                  <input type="tel" placeholder="Ingresar Telefono"class="form__input">
+                </div>
+                <div class="form__section">
+                  <label for="Cumpleaños">Fecha Nacimiento</label>
+                </div>
+                <div class="form__section">
+                  <input id="Cumpleaños"type="date" class="form__input">
+                </div>
+                <div class="form__section">
+                  <label for="observaciones">Observaciones</label>
+                </div>
+                <div class="form__section">
+                  <textarea id="observaciones"class="form__input"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+              <legend>Detalle de Viaje</legend>
+              <div class="form__section">
+                      <label for="Cuartos">Tipo de Habitacion</label>
+                        <select  class="form__input">
+                          <optgroup label="Studio">
+                              <option value="Studio_junior">Studio Jr Cama Matrimonial</option>
+                              <option value="Studio_junior">Studio Jr Camas Twins</option></optgroup>
+                          </optgroup>
+                            <optgroup label="Studio Junior Triples">
+                            <option>Studio Junior Cama Matrimonial + cama extra </option>
+                            <option>Studio Junior Triple Twin (3 camas individuales)</option>
+                          </optgroup>
+                          <optgroup label="Studio Con Deck">
+                            <option >Studio Con Deck Cama Matrimonial</option>
+                            <option >Studio Con Deck Camas Twins</option>
+                          </optgroup>
+                          <optgroup label="Superiores con Balcon">
+                            <option >Superiores Cama Matrimonial</option>
+                            <option>Superiores Camas Twins</option>
+                          </optgroup>
+                          <optgroup label="Superiores Triples">
+                            <option>Superiores Cama Matrimonial + Cama extra</option>
+                            <option>Superiores 3 camas individuales</option>
+                          </optgroup>
+                          <optgroup label="Superiores Cuadruples">
+                            <option>Superiores 2 camas Queens</option>
+                          </optgroup>
+                          <optgroup label="Suites Con Balcon e Hidromasaje">
+                            <option>Suite Cama Matrimonial</option>
+                          </optgroup>
+                          <optgroup label="Suites Triples">
+                            <option> Suite Cama Matrimonial + Futon</option>
+                          </optgroup>
+                          <optgroup label="Vila con Balcon e Hidromasaje">
+                            <option>Vila Matrimonial</option>
+                            <option>Vila Matrimonial + Cuna</option>
+                          </optgroup>
+                          <optgroup label="Vila Royale con Balcon  e Hidromasaje">
+                            <option>Vila Matrimonial</option>
+                            <option>Vila Matrimonial + Cuna</option>
+                          </optgroup>
+                        </select>
+                  </div>
+                  <div class="form__section">
+                    <label for="habitacion">Cantidad de Cuartos</label>
+                    <input id="habitacion" value="1"type="range" min="1"max="9"step="1" class="form__input">
+                  </div>
+                  <div class="form__section">
+                    <label for="fecha_llegada">Fecha de Llegada</label>
+                    <input type="date" name="fecha_llegada" class="form__input">
+                  </div>
+                  <div class="form__section">
+                    <label for="fecha_salida">Fecha de Salida</label>
+                    <input type="date" name="fecha_salida" class="form__input">
+                  </div>
+                  <div class="form__section">
+                    <label for="Distribucion">Distribucion</label>
+                    <select  name="Distribucion" class="form__input">
+                    <optgroup label="Individual">
+                      <option>1 persona</option>
+                    </optgroup>
+                    <optgroup label="Pareja">
+                      <option>2 personas</option>
+                    </optgroup>
+                    <optgroup label="Triple">
+                      <option>3 Personas</option>
+                    </optgroup>
+                    <optgroup label="Familia">
+                      <option>Familia + 1 chd</option>
+                      <option>Familia + 2 chd</option>
+                      <option>Familia + 3 chd</option>
+                      <option>Familia + 4 chd</option>
+                    </optgroup>
+                  </select>
+              </div>
+              <div class="form__section">
+                <label for="bebes"class="form__input">Bebes</label>
+                  <select name="bebes">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+              </div>
+              <div class="form__section">
+                <label for="Numero_Vuelo">Vuelo</label>
+                <input class="form__input"id="Numero_Vuelo"type="text" name="Vuelo" placeholder="Numero De vuelo">
+              </div>
+        </fieldset>
+        <div class="form__section">
+          <input id="boton" type="submit"class="form__input">
+        </div>
+        </form>
+      </div>
+
+      <footer>
+        <h3>Form Creado con Tips del Curso del Genio <a href="https://www.youtube.com/watch?v=OWKXEJN67FE&t=18058s" target="_blank">@soydalto</a></h3>
+        <p>Copyright Rancio (c) 2020 Copyright Holder All Rights Reserved.</p>
+
+      </footer>
+  </body>
+</html>
